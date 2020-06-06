@@ -10,3 +10,4 @@ jobs:
           name: install setup.py
           command: | 
             python setup.py install
+            pip freeze
