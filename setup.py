@@ -7,6 +7,6 @@ setup(
         'PyJWT==0.4.2',
         'requests==2.2.1',
         'feedparser==5.1.1',
-        'Flask==0.11.1'
+        'Flask==1.0'
     ]
 )
