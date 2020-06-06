@@ -1,0 +1,12 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: rappdw/docker-java-python
+
+    steps:
+      - checkout
+      - run: 
+          name: install setup.py
+          command: | 
+            python setup.py install
